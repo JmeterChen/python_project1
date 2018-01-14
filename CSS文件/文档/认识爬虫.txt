@@ -1,0 +1,8 @@
+什么是爬虫？
+
+通过程序的方式去网上获取所需要的内容信息；
+
+投票神器、刷票神器
+
+c\s  client\server
+b\s  bowser\server
