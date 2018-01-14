@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><meta charset="utf-8"></title>
+</head>
+<body bgcolor="green" >
+
+<!--   ../ 表示源文件所在目录的上一级目录  -->
+<!--   ../../表示源文件所在目录的上上级目录 -->
+  
+<!--   1、假设info.html路径是：  c:\sites\blabla\info.html -->
+<!--   2、假设index.html路径是： c:\sites\index.html -->
+<!--   3、在info.html加入超链接的代码应该这样写：<a href ="./index.html"> index.html</a>  -->
+
+
+
+<!-- 如何在HTML中创建表格 -->
+<!-- 1、横着方向的表头  表头用th标签   -->
+<table border="1">
+	<tr>
+		<th>姓名</th>
+		<th>电话</th>
+		<th>年龄</th>
+	</tr>
+	<tr>
+		<td>科比</td>
+		<td>110</td>
+		<td>38</td>
+	</tr>
+</table>
+<br>
+<table border="2">
+	<tr>
+		<th>姓名</th>
+		<td>科比</td>
+		<td>詹姆斯</td>
+		<td>韦德</td>
+	</tr>
+	<tr>
+		<th>球队</th>
+		<td>湖人</td>
+		<td>骑士</td>
+		<td>&nbsp</td>
+	</tr>
+	<tr>
+		<th>年龄</th>
+		<td>38</td>
+		<td>33</td>
+		<td>36</td>
+	</tr>
+	<tr>
+		<th>性别</th>
+		<td>man</td>
+		<td>man</td>
+		<td>man</td>
+	</tr>
+</table><br>
+
+<!-- <h4>用colpsan属性，设置包含多列的单元格：</h4> -->
+<table border="1">
+	<tr>
+		<th>姓名</th>
+		<th colspan="4">联系方式</th>
+	</tr>
+	<tr>
+		<td>kobe</td>
+		<td>110</td>
+		<td>112</td>
+		<td>133</td>
+		<td>1587</td>
+	</tr>
+</table><br>
+
+<!-- <h4>用rowspan这个属性，设置包含多行的单元格：</h4> -->
+<table border="1">
+<tr>
+	<th>姓名</th>
+	<td> kobe</td>
+</tr>
+<tr>
+	<th rowspan="2">联系方式</th>
+	<td> 110</td>
+</tr>
+<tr>
+	<td>1587</td>
+</tr>
+</table><br>
+
+<!-- 三行三列右上角四个合并为一个 -->
+<table border="1" bgcolor="red" background ="./images/表情1.jpg">
+	<tr>
+		<th>姓名</th>
+		<th colspan="2" rowspan="2">照片</th>
+	</tr>
+	<tr>
+		<td>kobe</td>
+	</tr>
+	<tr>
+	<td>备注</td>
+	<td>女儿</td>
+	<td>妻子</td>
+	</tr>
+</table>
+
+
+</body>
+</html>

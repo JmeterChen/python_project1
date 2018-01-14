@@ -1,0 +1,18 @@
+selector  {property :  value;}
+
+1、selector  ---选择器 表明花括号中的属性设置将应用于哪些HTML元素 例如“body”
+2、property  ---属性 例如用于设置背景色的属性 “background-color”等等
+3、value   ---值 比如说 background-color属性的值可以是“#FF0000”代表红色
+
+一般如下形式表达：
+body{
+	background-color ：#0000ff;
+}
+
+h1 {
+	color:#ff0000;
+}
+
+1、background-image: url("")
+2、background-repeat:repeat-x
+3、background-attachment:

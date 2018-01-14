@@ -1,0 +1,64 @@
+body {
+	/*background-color: pink;*/
+	background-image: url("../images/表情1.jpg");
+	/*background-repeat: repeat-y;  *//* 背景图片以x轴平铺 */
+	background-repeat: no-repeat;   /*背景图片不重复*/ 
+	/*background-attachment: scroll;*/  /* 当滑动页面的时候，背景图片跟着内容滚动*/
+	background-attachment: fixed; /* 当滑动页面的时候，背景图片不跟着内容滚动*/
+	background-position:right bottom;
+
+}
+
+h1 {
+	/*color: #2b794c;*/
+	background-color: #ffc828;
+}
+
+h2
+{
+	font-family: "Times New Roman",serif;  /*字体族*/
+	font-style: italic;                    /*字体样式*/
+	font-variant: normal;				   /*字体变化*/
+	font-weight: bold;					   /*字体浓淡*/
+	font-size: 30px;					   /*字体大小*/
+}
+
+h3
+{
+	font: italic bold 30px arial,sans-serif;
+}
+p
+{
+	text-indent: 30px; /*缩进*/
+	background-color: deeppink;
+	text-align: justify;
+	text-decoration: line-through;
+	letter-spacing: 3px;
+}
+
+h4
+{
+	/*text-transform: capitalize;!*手写字母转换为大写*!*/
+	text-transform: uppercase;/*字体均转换为大写*/
+}
+
+a:link {           /*未访问链接时候的颜色*/
+	/*color: black;*/
+	text-decoration: none;     /*去掉链接下划线*/
+}
+
+a:visited {       /*访问链接后的颜色*/
+	color: yellow;
+	text-decoration: none;
+}
+
+a:active{        /*点击该链接时候的颜色*/
+	color: green;
+	text-decoration: none;
+}
+
+a:hover{         /*鼠标移至该链接上时候的颜色与字体*/
+	color: red;
+	font-style: italic;
+	/* */
+}
